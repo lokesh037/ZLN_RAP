@@ -1,0 +1,6 @@
+CLASS zrap100_bp_traveltp_ln DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zrap100_r_traveltp_ln.
+
+ENDCLASS.
+
+CLASS zrap100_bp_traveltp_ln IMPLEMENTATION.
+ENDCLASS.
