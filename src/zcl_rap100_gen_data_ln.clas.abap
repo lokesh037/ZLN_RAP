@@ -51,7 +51,7 @@ METHOD if_oo_adt_classrun~main.
             travel~lastchangedby    AS last_changed_by,
             travel~lastchangedat    AS last_changed_at,
             travel~lastchangedat    AS local_last_changed_at
-            ORDER BY travel_id UP TO 15 ROWS
+            ORDER BY travel_id UP TO 10 ROWS
       ).
     COMMIT WORK.
     out->write( |[RAP100] Demo data generated for table ZRAP100_ATRAV{ group_id }. | ).
